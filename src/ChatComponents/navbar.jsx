@@ -72,13 +72,13 @@ function Navbar({userProfile}){
 
     return (
         <div>
-            <div  style={{width:"100vw",height:"80px", backgroundColor:"#FDE24F",borderTopLeftRadius:"25px",borderTopRightRadius:"25px",padding:"29px",font:"zilla-slab-bold",display:"flex", alignItems:"center" ,justifyContent:"space-between", border:"4px solid #00214D",position:"relative"}}>
+            <div  style={{width:"100vw",height:"80px", backgroundColor:"#FDE24F",borderTopLeftRadius:"25px",borderTopRightRadius:"25px",padding:"29px",font:"zilla-slab-bold",display:"flex", alignItems:"center" ,justifyContent:"space-between", border:"4px solid #00214D"}}>
                 <span className="zilla-slab-bold">Messages</span>
                 <div className="zilla-slab-semibold" style={{display:"flex", alignItems:"center",gap:"16px"}}>
                     <span>{userProfile.Username}</span>
                     <img onClick={() => handleClick("profile")} className="good" id="good"  src={userProfile.Picture==="default" ? "https://firebasestorage.googleapis.com/v0/b/pigeon-post-6156e.firebasestorage.app/o/default_user.svg?alt=media&token=a932cd77-1b1e-4edc-b36b-6784c14861b7" : userProfile.Picture} alt="profile-picture"/>
                     <img onClick={() => setSettingClicked(true)} style={{height:"12px",cursor:"pointer"}} src={arrowdown} alt="arrow"/>
-                    {settingClicked ? <label ref={menuRef} className="file-menu-button" style={{ cursor: "pointer", alignItems: "center",padding:"1vh",position:"absolute",right:"2%",top:"72%",border:"4px solid #00214D",backgroundColor:"#FDE24F",zIndex:"13",display:"flex",flexDirection:"column",gap:"1vh" }}>
+                    {settingClicked ? <label ref={menuRef} className="file-menu-button" style={{ cursor: "pointer", alignItems: "center",padding:"1vh",position:"absolute",right:"3%",top:"7%",border:"4px solid #00214D",backgroundColor:"#FDE24F",zIndex:"13",display:"flex",flexDirection:"column",gap:"1vh" }}>
                         <div onClick={() => {
                             setSettingClicked(false)
                             navigate("/settings")
