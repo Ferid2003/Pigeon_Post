@@ -95,7 +95,7 @@ function Login() {
         }else{
             try{
                 const actionCodeSettings = {
-                    url: 'http://localhost:5173/finish_sign_up',
+                    url: 'https://pigeonpost.netlify.app/finish_sign_up',
                     handleCodeInApp: true,
                 };
                 await sendVerificationEmail(mail, actionCodeSettings)
