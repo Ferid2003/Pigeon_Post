@@ -1,0 +1,13 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+p,span,div,input, input::placeholder{
+  color: #00214D;
+}
+input{
+  outline: none;
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pigeon
+* source:	https://sketchfab.com/3d-models/pigeon-af19957615944b0b9af60632fbd7508d
+* author:	OlegPopka (https://sketchfab.com/OlegPopka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pigeon" (https://sketchfab.com/3d-models/pigeon-af19957615944b0b9af60632fbd7508d) by OlegPopka (https://sketchfab.com/OlegPopka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
