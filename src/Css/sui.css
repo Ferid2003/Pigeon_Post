@@ -629,6 +629,18 @@ input[type="text"]:focus{
     .chat-info-narrow{
         width: 70%;
     }
+    .nav-button{
+        display: none;
+    }
+    .form-box{
+        width: 304px;
+    }
+    .login-container{
+        width: 300px;
+    }
+    .register-container{
+        width: 300px;
+    }
 }
 
 
