@@ -11,19 +11,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://firebasestorage.googleapis.com/v0/b/pigeon-post-6156e.firebasestorage.app/o/default_user.svg?alt=media&token=a932cd77-1b1e-4edc-b36b-6784c14861b7" alt="Logo" width="80" height="80">
-  </a>
+  
 
   <h3 align="center">Pigeon Post</h3>
 
   <p align="center">
     <br />
     <a href="https://pigeonpost.netlify.app">Live Demo</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -42,14 +37,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -60,14 +52,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<a href="https://pigeonpost.netlify.app">
+    <img src="src/assets/Screenshot_335.png" alt="Logo" width="900" height="550">
+</a>
 
 Pigeon Post is a messaging application similar WhatsApp. User can create account, send messages, media, documents, voice messages as well as make voice or video calls. Friend requests can be sent using the username of the user.
 
 Here's the full list of features:
 * Ability to send all types of messages including Contact information of different user
 * Ability to make voice/video calls
-* Ability to create group chat with multiple users :smile:
+* Ability to create group chat with multiple users
 * Ability to perform group functions(example: Give user admin rights, remove user from group, add user to group and so on) :smile:
 * Ability to change name, description, profile picture
 
@@ -77,6 +71,7 @@ Here's the full list of features:
 
 
 ### Built With
+
 
 * [![React][React.js]][React-url]
 * [![Vite][Vite.js]][Vite-url]
@@ -94,7 +89,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Follow the instruction to get the local copy of the app.
 
 1. Clone the repo
    ```sh
@@ -143,7 +138,26 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Here are the screenshots from different parts of application.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Login/Register Page
+<img src="src/assets/Screenshot_342.png" alt="Logo" width="700" height="500">
+
+### Friend Request Sending Screen
+<img src="src/assets/Screenshot_336.png" alt="Logo" width="700" height="500">
+
+### Group Settings Screen
+<img src="src/assets/Screenshot_337.png" alt="Logo" width="700" height="500">
+
+### User Settings Screen
+<img src="src/assets/Screenshot_341.png" alt="Logo" width="700" height="500">
+
+### Group Functions
+<img src="src/assets/Screenshot_338.png" alt="Logo" width="700" height="500">
+
+### Message Functions
+<img src="src/assets/Screenshot_339.png" alt="Logo" width="700" height="500">
+
+### Chat Information Screen
+<img src="src/assets/Screenshot_340.png" alt="Logo" width="700" height="500">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +177,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Farid Aghazada - [@your_twitter](https://twitter.com/your_username) - feridagazade157@gmail.com
+Farid Aghazada - feridagazade157@gmail.com
 
 Project Link: [https://github.com/Ferid2003/Pigeon_Post](https://github.com/Ferid2003/Pigeon_Post)
 
@@ -174,16 +188,9 @@ Project Link: [https://github.com/Ferid2003/Pigeon_Post](https://github.com/Feri
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Stream](https://getstream.io)
+* [Shader Gradient](https://www.shadergradient.co)
+* [Happy Hues](https://www.happyhues.co)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,8 +198,6 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -204,8 +209,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vite.js]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
@@ -214,15 +217,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [Firebase-url]: https://firebase.google.com/
 [Netlify.js]: https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
 [Netlify-url]: https://www.netlify.com/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
+
